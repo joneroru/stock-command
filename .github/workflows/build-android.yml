@@ -40,6 +40,9 @@ jobs:
       - name: Accept Android SDK licenses 
         run: yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
 
+      - name: Make gradlew executable
+        run: chmod +x android/gradlew
+
       - name: Build signed APK 
         working-directory: android 
         env:
