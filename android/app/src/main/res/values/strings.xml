@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Stock Command</string>
+    <string name="title_activity_main">Stock Command</string>
+    <string name="package_name">com.jonero.stockcommand</string>
+    <string name="custom_url_scheme">com.jonero.stockcommand</string>
+</resources>
